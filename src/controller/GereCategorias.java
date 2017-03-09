@@ -1,7 +1,10 @@
 package controller;
 
+import java.util.ArrayList;
+import model.Categorias;
+
 public class GereCategorias {
-	ArrayList<GereCategorias> arCategorias;
+	ArrayList<Categorias> arCategorias;
 	
 	//constructor
 	public GereCategorias(){

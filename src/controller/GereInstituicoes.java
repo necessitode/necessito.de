@@ -1,7 +1,10 @@
 package controller;
 
+import java.util.ArrayList;
+import model.Instituicoes;
+
 public class GereInstituicoes {
-	ArrayList<GereInstituicoes> arInstituicoes;
+	ArrayList<Instituicoes> arInstituicoes;
 	
 	//constructor
 	public GereInstituicoes (){
