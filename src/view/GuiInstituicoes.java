@@ -24,7 +24,7 @@ public class GuiInstituicoes {
 		System.out.println("Introduza o contacto");
 		String contacto = new Scanner(System.in).nextLine();
 		
-		Instituicoes i = new Instituicoes();
+		Instituicoes i = new Instituicoes(idUser, nomeUser, localidade, contacto);
 		i.setIdUser(idUser);
 		i.setNomeUser(nomeUser);
 		i.setLocalidade(localidade);

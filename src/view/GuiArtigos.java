@@ -23,7 +23,7 @@ public class GuiArtigos {
 		System.out.println("Introduza a condição do artigo");
 		String condicao = new Scanner(System.in).nextLine();
 		
-		Artigos a = new Artigos();
+		Artigos a = new Artigos(nomeArtigo, quantidade, descricao, condicao);
 		a.setNomeArtigo(nomeArtigo);
 		a.setQuantidade(quantidade);
 		a.setDescricao(descricao);

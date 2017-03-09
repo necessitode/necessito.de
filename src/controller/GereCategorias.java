@@ -1,6 +1,7 @@
 package controller;
 
 import java.util.ArrayList;
+
 import model.Categorias;
 
 public class GereCategorias {
@@ -9,6 +10,10 @@ public class GereCategorias {
 	//constructor
 	public GereCategorias(){
 		arCategorias = new ArrayList<Categorias>();
+	}
+	
+	public void addCategoria(Categorias cat){
+		arCategorias.add(cat); 	
 	}
 	
 }

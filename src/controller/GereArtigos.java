@@ -11,6 +11,8 @@ public class GereArtigos {
 		arArtigos = new ArrayList<Artigos>();
 	}
 	
-	
+	public void addArtigo(Artigos art){
+		arArtigos.add(art); 	
+	}
 	
 }

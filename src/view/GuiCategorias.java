@@ -6,6 +6,7 @@ import model.Categorias;
 
 public class GuiCategorias {
 
+	
 	public GuiCategorias() {
 		
 	}
@@ -16,7 +17,7 @@ public class GuiCategorias {
 		String nomeCategoria = new Scanner(System.in).nextLine();
 		
 		
-		Categorias c = new Categorias();
+		Categorias c = new Categorias(nomeCategoria);
 		c.setNomeCategoria(nomeCategoria);
 		
 		return c;
